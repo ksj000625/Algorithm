@@ -16,7 +16,7 @@ count = 0
 
 for num in coin:
     for i in range(num, k+1):
-       print("dp[", i, "] : ", dp[i], " / dp[i-", num, "+1] : ", dp[i-num]+1)
+       #print("dp[", i, "] : ", dp[i], " / dp[i-", num, "]+1 : ", dp[i-num]+1)
        dp[i] = min(dp[i],dp[i-num]+1)
 
 if dp[k] == 10001:
