@@ -8,8 +8,6 @@ coin = [0] * n
 for i in range(0, n):
     coin[i] = int(sys.stdin.readline())
 
-coin.sort()
-
 dp = [10001] * (k+1)
 dp[0] = 0
 count = 0
