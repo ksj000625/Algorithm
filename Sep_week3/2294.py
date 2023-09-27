@@ -10,7 +10,6 @@ for i in range(0, n):
 
 dp = [10001] * (k+1)
 dp[0] = 0
-count = 0
 
 for num in coin:
     for i in range(num, k+1):
