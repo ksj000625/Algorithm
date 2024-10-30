@@ -28,7 +28,10 @@ public class Main1181 {
         });
 
         for (int i = 0; i < num; i++) {
-            if(i == 0) continue;
+            if(i == 0) {
+                bw.write(arr[i] + "\n");
+                continue;
+            }
             if (!arr[i].equals(arr[i - 1])) {
                 bw.write(arr[i] + "\n");
             }
