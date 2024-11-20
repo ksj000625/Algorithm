@@ -40,6 +40,7 @@ public class Main27737 {
         }else{
             System.out.println("IMPOSSIBLE");
         }
+        sc.close();
     }
 
     public static int DFS(int x,int y,int N,int[][] farm,boolean[][] visited){
